@@ -210,6 +210,12 @@ footer {
     display: none; /*Não vai mostrar os icones de redes sociais para tela menoes*/
   }
 }
+@media screen and (max-width: 768px) {
+  .img-artigo {
+    width:80%;
+  }
+
+}
 
 @media screen and (max-width: 768px) {
   .icone-redes-rodape {
