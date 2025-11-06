@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'fugazi'; /* Escolha um nome para a fonte */
-  src: url('font/CAMPUS\ PERSONAL\ USE.ttf'); /* Caminho para o arquivo da fonte */
+  src: url('font/campus/CAMPUS\ PERSONAL\ USE.ttf'); /* Caminho para o arquivo da fonte */
+}
+@font-face {
+  font-family: 'nome-site';
+  src: url('font/futurist/FUTRFW.TTF');
 }
 
 body {
@@ -47,6 +51,14 @@ body {
 .icone-redes i {
   padding: 10px 20px 10px 20px;
 }
+.nome-site {
+  text-align: center;
+  margin-top: 0;
+  font-family: nome-site;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  background-color:#DAA520 ;
+  
+}
 
 .titulo-pagina {
   font-size: clamp(1.5rem, 5vw, 3rem);
@@ -86,6 +98,14 @@ main {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.data-postagem {
+  background-color: #DAA520;
+  padding: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight:800;
+
+}
 .img-artigo {
   max-width: 100%;
   height: auto;
@@ -116,12 +136,7 @@ main {
   margin-bottom: 40px;
 
 }
-.data-postagem {
-  margin-left: 20%;
-  margin-right: 20%;
-  font-weight:800;
 
-}
 .paragrafo-artigo {
   
   font-size: clamp(1rem, 2vw, 1.2rem); 
