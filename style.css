@@ -125,6 +125,11 @@ main {
   font-weight:800;
   
 }
+.legenda {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 800;
+}
 
 .voltar-inicio{
   display:flex;
