@@ -38,19 +38,7 @@ body {
   color:#1c1c1c;
 ;
 }
-.container-icones {
-  position: relative; /* Define o contexto de posicionamento para o ícone */
-}
-.icone-redes {
-  background-color:#DAA520;
 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.icone-redes i {
-  padding: 10px 20px 10px 20px;
-}
 .nome-site {
   text-align: center;
   margin-top: 0;
@@ -58,6 +46,15 @@ body {
   font-size: clamp(1.5rem, 5vw, 3rem);
   background-color:#DAA520 ;
   
+}
+.icones-redes-topo {
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}
+.icones-redes-topo a {
+  padding: 10px;
+
 }
 
 .titulo-pagina {
