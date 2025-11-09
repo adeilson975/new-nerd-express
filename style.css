@@ -105,6 +105,7 @@ main {
 .videos {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 .img-artigo {
   max-width: 100%;
