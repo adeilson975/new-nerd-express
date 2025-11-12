@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-hamburguer.css">
     <title>Projeto Site</title>
     
 </head>
@@ -12,7 +13,28 @@
     <!-- USANDO UM ID PARA VOLTA AO TOPO DA PÁGINA-->
     <div id="topoDaPagina"></div>
     <header>
-      <section class="menu">
+      <section>
+        <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="index.html"><li>Home</li></a>
+              <a href="index2.html"><li>Filmes/Séries</li></a>
+              <a href="index3.html"><li>Quadrinhos</li></a>
+              <a href="index4.html"><li>Games</li></a>
+              <a href="index5.html"><li>Tecnologia</li></a>
+              <a href="index6.html"><li>Clássicos</li></a>
+              <a href="index7.html"><li>Underground</li></a>
+              
+            </ul>
+        </div>
+      </nav>
+      </section>
+      <h1 class="nome-site">New Nerd Express</h1>
+      <section>
         <nav class="menu-navegacao">
             <ul class="lista-menu">
                 <li><a href="index.html">Home</a></li>
@@ -25,10 +47,8 @@
             </ul>
         </nav>
       </section>
-       
-      
     </header>
-    <h1 class="nome-site">New Nerd Express</h1>
+    
     <section>
         <div class="icones-redes-topo">
             <a href="mailto:newnerdexpress@gmail.com"><i class="fa-solid fa-envelope"></i></a>
@@ -40,7 +60,7 @@
           <h1 class="titulo-pagina">Underground</h1>
           <hr>
 
-          <h1 class="h1-artigo-fugazi">Fugazi</h1>
+          <h2 class="h2-artigo-fugazi">Fugazi</h1>
           <h2 class="h2-artigo">A frase "Fugazi faça você mesmo" refere-se diretamente à ética DIY (Do It Yourself - Faça Você Mesmo) inabalável da banda de post-hardcore Fugazi. </h2>
           <span class="data-postagem">05/11/2025</span>
           <img class="img-artigo" src="img/fugazi.avif" alt="foto da banda fugazi ensaiando em um quarto qualquer">
