@@ -10,10 +10,7 @@
   font-family:'nome-site';
   src: url('font/futurist/FUTRFW.TTF');
 }
-@font-face {
-  font-family:'thesmiths';
-  src: url('font/fortalesia/FortalesiaPlain_PERSONAL_USE_ONLY.otf');
-}
+
 html, body {
   overflow-x: hidden;
 }
