@@ -18,18 +18,32 @@
   font-family:'ratos';
   src: url('font/ratos2/White\ On\ Black.ttf');
 }
-
-html, body {
-  overflow-x: hidden;
-}
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
  
 }
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*CÓDIGO A SEGUIR PARA MANTER O FOOTER FIXADO NO RODAPÉ DA PÁGINA*/
+ .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .container .conteudo-principal {
+        flex: 1 1 0;
+        border: 0;
+      }
+
 header {
   background-color: #1c1c1c;
   max-width: 100%;
@@ -64,7 +78,7 @@ header {
 .lista-menu a:hover {
   background-color:#DAA520;
   color:#1c1c1c;
-;
+
 }
 
 
@@ -97,9 +111,7 @@ header {
 
 }
 
-main {
-  flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical disponível */
-}
+
 .h1-artigo-ratos-de-porao {
   font-family: ratos;
   font-size: clamp(3rem, 5vw,2rem);
