@@ -195,6 +195,16 @@ header {
   font-weight:800;
 
 }
+.musicas {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.musicas audio {
+  border: 1px solid #000;
+}
 .videos {
   max-width: 100%;
   height: auto;
