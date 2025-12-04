@@ -201,6 +201,8 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 .musicas audio {
   border: 1px solid #000;
