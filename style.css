@@ -204,6 +204,7 @@ header {
   
 }
 .musicas audio {
+  background-color: #DAA520;
   border: 1px solid #000;
 }
 .videos {
