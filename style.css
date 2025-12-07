@@ -114,6 +114,11 @@ header {
   margin-right: 20%;
 
 }
+.lancamentos{
+  text-align: center;
+  background-color: #DAA520;
+  margin-bottom:20px;
+}
 .h1-artigo-ramones {
   font-family: ramones;
   font-size: clamp(4rem, 5vw,2rem);
