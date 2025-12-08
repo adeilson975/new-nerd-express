@@ -49,15 +49,18 @@ body {
       }
 
 header {
+  position: fixed;
+  top: 0;
   background-color: #1c1c1c;
   max-width: 100%;
   height: auto;
+  width: 100%;
   margin-top: 0;
 }
 .nome-site {
-  margin-top: 0;
+  margin-top:0px;
   text-align: center;
-  padding:20px 0px 20px 0px;
+  padding:50px 0px 20px 0px;
   font-family: nome-site;
   font-size: clamp(1.5rem, 5vw, 3rem);
   background-color:#DAA520;
@@ -85,15 +88,15 @@ header {
 
 }
 
-
 .icones-redes-topo {
-  display: flex;
-  justify-content: end;
-  margin-right:50px;
-
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 10px;
+  
 }
+
 .icones-redes-topo a {
-  padding:5px;
+  padding:2px;
 
 }
 
@@ -189,7 +192,7 @@ header {
   justify-content: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 60px;
+  margin-top:200px;
   margin-bottom: 40px;
 }
 .data-postagem {
