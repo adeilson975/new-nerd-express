@@ -99,6 +99,9 @@ header {
   padding:2px;
 
 }
+.topo-do-artigo {
+  margin-top:200px;
+}
 
 .titulo-pagina {
   font-size:clamp(1rem, 5vw, 2rem);
@@ -123,19 +126,18 @@ header {
   margin-top: 200px;
   margin-bottom:20px;
 }
-.h1-artigo-ramones {
+.h1-artigo-underground {
   font-family: ramones;
   font-size: clamp(4rem, 5vw,2rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 
 
-.h1-artigo-ratos-de-porao {
+.h1-artigo-underground {
   font-family: ratos;
   font-size: clamp(3rem, 5vw,2rem);
   display: flex;
@@ -147,7 +149,7 @@ header {
 
 }
 
-.h1-artigo-thesmiths{
+.h1-artigo-underground{
   font-family: thesmiths;
   font-size: clamp(3rem, 5vw,2rem);
   display: flex;
@@ -158,7 +160,7 @@ header {
   margin-bottom: 40px;
 
 }
-.h1-artigo-pixies{
+.h1-artigo-underground{
   font-family:pixies;
   font-size: clamp(3rem, 5vw,2rem);
   display: flex;
@@ -169,7 +171,7 @@ header {
   margin-bottom: 40px;
 }
 
-.h1-artigo-fugazi{
+.h1-artigo-underground{
   font-family: fugazi;
   font-size: clamp(3rem, 5vw,2rem);
   display: flex;
