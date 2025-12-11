@@ -5,10 +5,7 @@
   box-sizing: border-box;
  
 }
-html {
-  position:sticky;
-  top:0;
-}
+
 
 html, body {
   overflow-x: hidden;
