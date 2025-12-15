@@ -126,6 +126,7 @@ body {
   
 }
 .data-postagem {
+  display: inline;
   background-color: #DAA520;
   padding:5px;
   margin-left: 20%;
