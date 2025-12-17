@@ -6,11 +6,11 @@
 html, body {
   overflow-x: hidden;
 }
-
+/*Menu com 3 listras (amburguer)*/
 #menuToggle {
   display:block;
   position: relative;
-  padding-top:10px;
+  padding-top:20px;
   margin-bottom:30px;
   left: 25px;
   z-index: 1;
@@ -22,7 +22,7 @@ html, body {
 #menuToggle a
 {
   text-decoration: none;
-  color:#DAA520;
+  color:#FF4500;
   transition: color 0.3s ease;
 }
 
@@ -52,7 +52,7 @@ html, body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background:#DAA520;
+  background:#FF4500;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -73,7 +73,7 @@ html, body {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background:#DAA520;
+  background:#FF4500;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
