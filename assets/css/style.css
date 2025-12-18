@@ -13,7 +13,7 @@ html, body {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:#F8F8FF;
+  background-color:#FFFFE0;
 }
 
 
@@ -32,15 +32,16 @@ body {
   position:fixed;
   top: 0;
   background-color: #1c1c1c;
-  height:70px;
+  height:80px;
   width: 100%;
   z-index:1000;
 }
 .nome-site {
+  height: auto;
   margin-top:0px;
   text-align: center;
   padding:50px 0px 20px 0px;
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(1.5rem, 5vw, 3rem);
   background-color:#363636;
   color:#FF4500;
@@ -89,26 +90,11 @@ body {
 
 .icones-redes-topo a {
   padding:10px;
-  border:3px solid #FF4500;
-  border-radius:10px;
-  background-color:#A9A9A9;
-
-}
-.gibiteca{
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-
-}
-
-.credito-artista{
-    background-color: #DCDCDC;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-weight: 800;
-  }
  
+  border-radius:10px;
+  background-color:#FFFFE0;
+
+}
 .conteudo-principal{
   margin-top:200px;
 }
@@ -163,16 +149,7 @@ body {
   margin-bottom:20px;
   
 }
-.img-artigo-album {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
 
-}
 .h2-artigo {
   font-size:clamp(1rem, 5vw,2rem);
   display: flex;
@@ -215,20 +192,7 @@ body {
   font-weight:800;
   
 }
-.legenda {
-  background-color:#DCDCDC;
-  margin-left: 30%;
-  margin-right:30%;
-  font-weight: 800;
-}
-.voltar-inicio{
-  display:flex;
-  justify-content: center;
-}
-.voltar-inicio a {
-  font-size: clamp(1rem, 2vw, 1.2rem); 
-  color: #000;
-}
+
 
 footer { 
   margin-top:40px;
@@ -240,18 +204,11 @@ footer {
   display: flex;
   justify-content: center;
 }
-.copyright {
-  max-width: 100%;
-  height: auto;
-}
-
-
 .copyright-adeilson {
-  max-width: 100%;
-  padding-top: 60px;
-  height:auto;
   display: flex;
   justify-content: center;
+  padding-top: 60px;
+  height:auto;
   color:#FF4500;
   font-size: clamp(1rem, 2vw, 1.2rem); 
 }
