@@ -40,10 +40,9 @@ body {
   margin-top:0px;
   text-align: center;
   padding:50px 0px 20px 0px;
-  font-family:nomesite;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(1.5rem, 5vw, 3rem);
   background-color:#363636;
-  border-bottom: 1px solid #FF4500;
   color:#FF4500;
   
 }
