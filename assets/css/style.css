@@ -85,14 +85,13 @@ body {
   position: fixed;
   margin-top: 10px;
   margin-left: 10px;
-  padding: 5px;
  
 }
 
 .icones-redes-topo a {
-  padding:10px;
- 
-  border-radius:10px;
+  padding:3px;
+  margin:10px;
+  border-radius:5px;
   background-color:#FFFFE0;
 
 }
@@ -152,6 +151,19 @@ footer {
   display: flex;
   justify-content: center;
 }
+.icones-redes-footer {
+
+  display: flex;
+  justify-content: center;
+ 
+}
+.icones-redes-footer  a {
+  padding:3px;
+  margin:20px;
+  border-radius:5px;
+  background-color:#FFFFE0;
+
+}
 .copyright-adeilson {
   display: flex;
   justify-content: center;
@@ -160,6 +172,7 @@ footer {
   color:#FF4500;
   font-size: clamp(1rem, 2vw, 1.2rem); 
 }
+
 
 
 /* Media query para telas menores que 768px (tablets e celulares) */
