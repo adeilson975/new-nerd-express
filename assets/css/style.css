@@ -49,7 +49,7 @@ body {
 }
 .destaques {
   font-family: Arial, Helvetica, sans-serif;
-  font-size:30px;
+  font-size: clamp(2rem, 5vw + 1rem, 2rem);
   margin-top: 20px;
   text-align: center;
   margin-left:10%;
@@ -109,11 +109,11 @@ body {
 .artigo-conteudo-principal h1 {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom:20px;
-  font-size:20px;
+  font-size: clamp(1rem, 5vw + 1rem, 2rem);
   
 }
 .artigo-conteudo-principal h2 {
-  font-size:20px;
+  font-size: clamp(1.5rem, 3vw + 1rem, 1.5rem);
   margin-bottom:20px;
 }
 .artigo-conteudo-principal h3 {
@@ -126,6 +126,7 @@ body {
 }
 .artigo-conteudo-principal p {
   margin-bottom:10px;
+  font-size: clamp(1rem, 2vw + 1rem, 1rem);
 }
 .video-anexado iframe{
   height:400px;
