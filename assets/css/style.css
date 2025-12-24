@@ -128,8 +128,8 @@ body {
   font-size: clamp(1rem, 2vw + 1rem, 1rem);
 }
 .video-anexado iframe{
-  height:400px;
-  width:600px;
+  height:300px;
+  width:500px;
 }
 .artigo-conteudo-principal img {
   margin-bottom:20px;
