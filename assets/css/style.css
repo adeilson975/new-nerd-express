@@ -16,16 +16,7 @@ body {
   background-color:#FFFFE0;
 }
 
-.feliz-novo {
-  display: flex;
-  justify-content: center;
-  width: 80%; /* Define que o contêiner ocupará 80% da largura do elemento pai */
-  margin: 0 auto; /* Centraliza o contêiner na página */
-}
-.feliz-novo img {
-  max-width:100%; /* A imagem ocupará no máximo 100% da largura do contêiner */
-  height:auto; /* A altura se ajusta automaticamente para manter a proporção */
-}
+
 /*CÓDIGO A SEGUIR PARA MANTER O FOOTER FIXADO NO RODAPÉ DA PÁGINA*/
  .container {
     display: flex;
