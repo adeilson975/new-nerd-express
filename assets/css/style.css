@@ -68,10 +68,8 @@ body {
   display: block;
 }
 .lista-menu a:hover {
-  background-color:#F8F8FF;
-  color:#1c1c1c;
-  border:5px solid #1c1c1c;
-  border-radius:10px;
+  text-decoration: underline;
+  font-weight: 600;
 
 }
 
@@ -134,24 +132,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
 }
-hr {
-  margin-top: 40px;
-}
-.container-noticias {
-  width:50%;
-  padding:20px;
-  overflow: auto; /* ou overflow: hidden; */
-}
-.container-noticias h2 {
-  margin-top:20px;
-  margin-bottom: 20px;
-}
-.container-noticias img {
-  float:left;
-  margin-right: 15px;
-  width:10rem;
-  border-radius:5px;
-}
+
 
 footer { 
   margin-top:40px;
