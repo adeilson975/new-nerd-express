@@ -1,0 +1,36 @@
+.mosaic-grid {
+  display: grid;
+  /* Criamos 2 colunas: a 1ª ocupa 2 partes e a 2ª ocupa 1 parte do espaço */
+  grid-template-columns: 2fr 1fr; 
+  /* Definimos que o grid terá 2 ou 3 linhas automáticas */
+  grid-template-rows: repeat(3, 200px); 
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Faz a primeira imagem ocupar da linha 1 até a linha 4 (toda a altura) */
+.featured {
+  grid-row: 1 / 4; 
+}
+
+/* Responsividade: em telas pequenas, vira uma coluna só */
+@media (max-width: 600px) {
+  .mosaic-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 80%;
+  }
+  .featured {
+    grid-row: auto;
+  }
+}
